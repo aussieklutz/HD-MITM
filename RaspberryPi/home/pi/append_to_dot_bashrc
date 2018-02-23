@@ -1,0 +1,3 @@
+
+pgrep openvpn || sudo openvpn --config insert_your_openvpn_config.ovpn > /tmp/openvpn_sout 2> /tmp/openvpn_eout &
+pgrep fswebcam || ~/capture.sh &
