@@ -29,3 +29,9 @@ PERMALINK:https://web.archive.org/save/https://www.ebay.com.au/i/222799987164?ch
 4 Port USB Power Supply
 https://www.jbhifi.com.au/phones/all-phones/soniq/soniq-4-port-6-8a-usb-desktop-charger/771872/
 PERMALINK:https://web.archive.org/save/https://www.jbhifi.com.au/phones/all-phones/soniq/soniq-4-port-6-8a-usb-desktop-charger/771872/
+
+Arduino Stick
+https://core-electronics.com.au/freetronics-leostick-arduino-compatible.html
+PERMALINK:https://web.archive.org/web/20180223005949/https://core-electronics.com.au/freetronics-leostick-arduino-compatible.html
+https://www.freetronics.com.au/products/leostick
+PERMALINK:https://web.archive.org/save/https://www.freetronics.com.au/products/leostick#.Wo9n1qhuaHs
