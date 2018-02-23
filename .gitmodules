@@ -1,0 +1,3 @@
+[submodule "Arduino/hardware/LeoStickBoardProfile"]
+	path = Arduino/hardware/LeoStickBoardProfile
+	url = https://github.com/freetronics/LeoStickBoardProfile
