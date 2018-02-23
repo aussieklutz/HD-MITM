@@ -1,0 +1,42 @@
+# Freetronics LeoStick board profile v3.0
+# for Arduino 1.6.x and newer
+#
+# LeoStick V2.0 only, V1.0 boards should upgrade bootloaders:
+# http://www.freetronics.com.au/pages/updating-the-leostick-bootloader
+#
+# Tested with Arduino 1.6.0.
+#
+##############################################################
+leostick.name=Freetronics LeoStick
+leostick.vid.0=0x26BA
+leostick.pid.0=0x8002
+leostick.vid.1=0x26BA
+leostick.pid.1=0x0002
+
+leostick.upload.tool=arduino:avrdude
+leostick.upload.protocol=avr109
+leostick.upload.maximum_size=28672
+leostick.upload.maximum_data_size=2560
+leostick.upload.speed=57600
+leostick.upload.disable_flushing=true
+leostick.upload.use_1200bps_touch=true
+leostick.upload.wait_for_upload_port=true
+
+leostick.bootloader.tool=arduino:avrdude
+leostick.bootloader.low_fuses=0xff
+leostick.bootloader.high_fuses=0xd8
+leostick.bootloader.extended_fuses=0xcb
+leostick.bootloader.file=caterina/Caterina-LeoStick.hex
+leostick.bootloader.unlock_bits=0x3F
+leostick.bootloader.lock_bits=0x2F
+
+leostick.build.mcu=atmega32u4
+leostick.build.f_cpu=16000000L
+leostick.build.vid=0x26BA
+leostick.build.pid=0x8002
+leostick.build.usb_manufacturer="Freetronics Pty Ltd"
+leostick.build.usb_product="Leostick "
+leostick.build.board=AVR_LEONARDO
+leostick.build.core=arduino:arduino
+leostick.build.variant=arduino:leonardo
+leostick.build.extra_flags={build.usb_flags}
